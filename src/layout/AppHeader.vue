@@ -9,9 +9,9 @@
 
         <b-collapse id="nav-collapse" is-nav>
             <b-navbar-nav>
-                <b-nav-item href="#">Accueil</b-nav-item>
-                <b-nav-item href="#">Blog</b-nav-item>
-                <b-nav-item href="#" disabled>Contact</b-nav-item>
+                <b-nav-item><router-link to="/">Accueil</router-link></b-nav-item>
+                <b-nav-item><router-link to="/landing">Blog</router-link></b-nav-item>
+                <b-nav-item><router-link to="/contact">Contact</router-link></b-nav-item>
             </b-navbar-nav>
 
             <!-- Right aligned nav items -->

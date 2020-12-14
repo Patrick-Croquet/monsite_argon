@@ -1,15 +1,18 @@
 <template>
     <div>
-        <carousel></carousel>
+        <carousel1></carousel1>
+        <carousel2></carousel2>
     </div>
 </template>
 <script>
-import Carousel from "./components/Carousel";
+import Carousel1 from "./components/Carousel";
+import Carousel2 from "./components/Carousel";
 
 export default {
-  name: "acccueil",
+  name: "essai",
   components: {
-    Carousel
+    Carousel1,
+    Carousel2
   }
 }
 </script>
